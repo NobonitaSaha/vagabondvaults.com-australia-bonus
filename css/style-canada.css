@@ -72,7 +72,7 @@ button.order-btn::before {
 -------------------------- */
 .main-hero-section {
     overflow-x: hidden;
-    background-image: url('../img/canada-images/canada-banner-01.png');
+    background-image: url('../img/au-images/au-banner-01.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -80,6 +80,7 @@ button.order-btn::before {
     position: relative;
     overflow-y: hidden;
     z-index: 1;
+    background-position: center;
 }
 
 .main-hero-section::after {
@@ -90,7 +91,7 @@ button.order-btn::before {
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(to right, #046bd26b, #046bd26b);
+    background: linear-gradient(to right, #348be2e0, #046bd26b);
 }
 
 .banner-conrent-area {
